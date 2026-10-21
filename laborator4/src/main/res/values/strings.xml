@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">laborator4</string>
+    <string-array name="combustibili">
+        <item>Benzină</item>
+        <item>Motorină</item>
+        <item>Hibrid</item>
+        <item>Electric</item>
+        <item>GPL</item>
+    </string-array>
+</resources>
