@@ -28,6 +28,12 @@
         android:layout_height="wrap_content"
         android:text="Adaugă mașină (design AI)" />
 
+    <Button
+        android:id="@+id/btnVeziLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vezi lista" />
+
     <TextView
         android:id="@+id/tvMasina"
         android:layout_width="match_parent"

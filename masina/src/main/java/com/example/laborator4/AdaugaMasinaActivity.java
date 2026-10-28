@@ -16,8 +16,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class AdaugaMasinaActivity extends AppCompatActivity {
-
-    // suprascrisă în AdaugaMasinaAIActivity pentru a folosi alt layout
     protected int getLayoutId() {
         return R.layout.activity_adauga_masina;
     }
