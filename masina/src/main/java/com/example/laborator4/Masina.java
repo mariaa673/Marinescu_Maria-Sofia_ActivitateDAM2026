@@ -3,6 +3,9 @@ package com.example.laborator4;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+
+
+
 import androidx.annotation.NonNull;
 
 public class Masina implements Parcelable {

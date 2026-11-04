@@ -47,6 +47,13 @@ public class MainActivity extends AppCompatActivity {
         tvMasina = findViewById(R.id.tvMasina);
         Button btnAdauga = findViewById(R.id.btnAdauga);
         Button btnAdaugaAI = findViewById(R.id.btnAdaugaAI);
+        Button btnVeziLista = findViewById(R.id.btnVeziLista);
+
+        btnVeziLista.setOnClickListener(v -> {
+            Intent intent = new Intent(this, ListaMasiniActivity.class);
+            intent.putParcelableArrayListExtra(ListaMasiniActivity.CHEIE_LISTA, listaMasini);
+            startActivity(intent);
+        });
 
         btnAdauga.setOnClickListener(v ->
                 launcher.launch(new Intent(this, AdaugaMasinaActivity.class)));
